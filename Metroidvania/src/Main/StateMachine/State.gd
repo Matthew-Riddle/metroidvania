@@ -22,6 +22,8 @@ func enter(msg: Dictionary = {}) -> void:
 	
 func exit() -> void:
 	return
+	
+#delete this later
 
 func _get_state_machine(node: Node) -> Node:
 	if node != null and not node.is_in_group("state_machine"):
